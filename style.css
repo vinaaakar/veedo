@@ -1,0 +1,447 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.top-portion ul li{
+    display: inline;    
+}
+.different{
+    padding-right: 70%;
+}
+.seperate{
+    padding-right: 40px;
+}
+.mohit {
+    width: 400px;
+    height: 800px;
+    align-content: center;
+    padding-left: 200px;
+    position: relative;
+}
+.pranav{
+    margin-top: 500ox;
+    width: 400px;
+    height: 800px;
+    align-content: center;
+    padding-left: 200px;
+    position: relative;
+    display: none;
+}
+.ram{
+    width: 400px;
+    height: 800px;
+    align-content: center;
+    padding-left: 200px;
+    position: relative;
+    display: none;
+}
+.parthiban{
+    width: 400px;
+    height: 800px;
+    align-content: center;
+    padding-left: 200px;
+    position: relative;
+    display: none;
+}
+.director{
+    width: 400px;
+    height: 800px;
+    align-content: center;
+    padding-left: 200px;
+    position: relative;
+    display: none;
+}
+.rohith{
+    width: 400px;
+    height: 800px;
+    align-content: center;
+    padding-left: 200px;
+    position: relative;
+    display: none;
+}
+.Pradeep{
+    width: 400px;
+    height: 800px;
+    align-content: center;
+    padding-left: 200px;
+    position: relative;
+    display: none;
+}
+.mohit h2{
+    width: 700px;
+}
+.pranav h2{
+    width: 700px;
+}
+.ram h2{
+    width: 700px;
+}
+.ram h2{
+    width: 700px;
+}
+.parthiban h2{
+    width: 700px;
+}
+.director h2{
+    width: 700px;
+}
+.rohith h2{
+    width: 700px;
+}
+.Pradeep h2{
+    width: 700px;
+}
+.circle1{
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+}
+.circle2{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 130px;
+    left: 1700px;    
+}
+.circle3{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 670px;
+    left: 1100px;    
+}
+.mohit img{
+    position: absolute;
+    z-index: 200;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    top: 250px;
+    left: 1250px;
+}
+.circle4{
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+}
+.circle5{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 130px;
+    left: 1700px;    
+}
+.circle6{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 670px;
+    left: 1100px;    
+}
+.circle7{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 670px;
+    left: 1100px;    
+}
+.circle8{
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+}
+.circle9{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 130px;
+    left: 1700px;    
+}
+.circle10{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 670px;
+    left: 1100px;    
+}
+.circle11{
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+}
+.circle12{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 130px;
+    left: 1700px;    
+}
+.circle13{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 670px;
+    left: 1100px;    
+}
+.circle14{
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+}
+.circle15{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 130px;
+    left: 1700px;    
+}
+.circle16{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 670px;
+    left: 1100px;    
+}
+.circle17{
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+}
+.circle18{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 130px;
+    left: 1700px;    
+}
+.circle19{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 670px;
+    left: 1100px;    
+}
+.circle20{
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+}
+.circle21{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 130px;
+    left: 1700px;    
+}
+button{
+    background-color: rgb(43, 43, 43);
+    border: rgb(43, 43, 43);
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    transition: 0.5s ease-in-out;
+}
+button:hover{
+    background-color: white;
+    border: black;
+    color: rgb(43, 43, 43);
+    width: 100px;
+    height: 50px;
+    box-shadow: 20px 20px 50px 5px rgb(43, 43, 43);
+}
+h2{
+    font-size: 50px;
+}
+.top-portion a{
+    text-decoration: none;
+    color: black;
+}
+.seperate{
+    margin-top: 4%;
+    position: relative;
+    width: max-content;
+    padding-bottom: 5px;
+}
+.seperate:after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: gray;
+    position: absolute;
+    margin-top: 5px;
+    bottom: 0;
+    left: 0;
+    border-radius: 100px;
+    transition: 100ms;
+}
+.seperate:hover::after{
+    width: 60px;
+    box-shadow: 1px 1px 25px 1px gray;
+}
+.overall-content1 h5{
+    font-size: 30px;
+}
+.overall-content1 h3{
+    font-size: 40px;
+}
+.overall-content1 p{
+    font-size: 20px;
+}
+.number{
+    & ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        & li{
+            width: 100px;
+            height: 5px;
+            background-color: gray;
+            border-radius: 10px;
+        }
+    }
+}
+change:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.service{
+    margin-top: 200px;
+}
+.service1{
+    width: 1000px;
+}
+.items{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-right: 50px;
+    border-radius: 30px;
+    border-color: white;
+    box-shadow: 10px 10px 20px 10px gray;
+    padding: 50px;
+    transition: 0.5s ease-in-out;
+
+    & h5{
+        width: 100px;
+    }
+}
+.web{
+    width: 132px;
+    height: 132px;
+}
+.app{
+    width: 132px;
+    height: 132px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.uiux{
+    width: 150px;
+    height: 150px;
+}
+.data{
+    width: 132px;
+    height: 132px;
+}
+.business{
+    width: 132px;
+    height: 132px;
+}
+.service1 a div:hover{
+    width: 160px;
+    height: 210px;
+    box-shadow: 10px 10px 20px 10px rgb(77, 77, 77);
+}
+.service1 a{
+    text-decoration: none;
+    color: black;
+}
+.choose{
+    z-index: 30;
+    top: 0;
+    right: 0;
+}
