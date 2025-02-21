@@ -1,0 +1,242 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+.top-portion ul li{
+    display: inline;    
+}
+.different{
+    padding-right: 70%;
+}
+.seperate{
+    padding-right: 40px;
+}
+.mohit h2{
+    width: 700px;
+}
+.pranav h2{
+    width: 700px;
+}
+.circle1{
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+}
+.circle2{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 130px;
+    left: 1700px;    
+}
+.circle3{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 670px;
+    left: 1100px;    
+}
+.mohit {
+    width: 400px;
+    height: 800px;
+    align-content: center;
+    padding-left: 200px;
+    position: relative;
+}
+.pranav{
+    margin-top: 500ox;
+    width: 400px;
+    height: 800px;
+    align-content: center;
+    padding-left: 200px;
+    position: relative;
+    display: none;
+}
+.mohit img{
+    position: absolute;
+    z-index: 200;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    top: 250px;
+    left: 1250px;
+}
+.mohit h5{
+    width: 100px;
+    font-size: 40px;
+}
+.mohit h3{
+    font-size: 50px;
+}
+.pranav h5{
+    width: 100px;
+    font-size: 40px;
+}
+.pranav h3{
+    font-size: 50px;
+}
+button{
+    background-color: rgb(43, 43, 43);
+    border: rgb(43, 43, 43);
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    transition: 0.5s ease-in-out;
+}
+button:hover{
+    background-color: white;
+    border: black;
+    color: rgb(43, 43, 43);
+    width: 100px;
+    height: 50px;
+    box-shadow: 20px 20px 50px 5px rgb(43, 43, 43);
+}
+h2{
+    font-size: 50px;
+}
+.top-portion a{
+    text-decoration: none;
+    color: black;
+}
+.seperate{
+    margin-top: 4%;
+    position: relative;
+    width: max-content;
+    padding-bottom: 5px;
+}
+.seperate:after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: gray;
+    position: absolute;
+    margin-top: 5px;
+    bottom: 0;
+    left: 0;
+    border-radius: 100px;
+    transition: 100ms;
+}
+.seperate:hover::after{
+    width: 60px;
+    box-shadow: 1px 1px 25px 1px gray;
+}
+.number{
+    & ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        & li{
+            width: 100px;
+            height: 5px;
+            background-color: gray;
+            border-radius: 10px;
+        }
+    }
+}
+change:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.circle4{
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+}
+.circle5{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 130px;
+    left: 1700px;    
+}
+.circle6{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 670px;
+    left: 1100px;    
+}
+.about div{
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    & img{
+        border-radius: 5px;
+        width: 50px;
+        height: 50px;
+        box-shadow: 0px 0px 20px 10px rgb(61, 60, 60);
+        margin-bottom: 0px;
+        transition: 0.5s ease-in-out; 
+        bottom: 0px;
+    }
+}
+.about{
+    position: absolute;
+    position: relative;
+    height: 200px;
+    background-color: gray;
+    bottom: 0;
+    overflow-y: 0;
+}
+.logos{
+    padding-left: 40px;
+}
+#linkedin{
+    margin-left: 80%;
+    transition: 0.5s ease-in-out; 
+}
+#facebook{
+    margin-left: 75%;
+    transition: 0.5s ease-in-out;  
+}
+#instagram{
+    margin-left: 85%;
+    transition: 0.5s ease-in-out;
+}
+#main{
+    top: 100px;
+}
+#linkedin img:hover{
+    box-shadow: 0px 0px 20px 10px black;   
+    width: 55px;
+    height: 55px;
+}
+#instagram img:hover{
+    box-shadow: 0px 0px 20px 10px black;
+    width: 55px;
+    height: 55px;
+}
+#facebook img:hover{
+    box-shadow: 0px 0px 20px 10px black;
+    width: 55px;
+    height: 55px;
+}
+.price ul li{
+    display: flex;
+}
