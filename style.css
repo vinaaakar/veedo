@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
 }
 .top-portion ul li{
     display: inline;    
@@ -384,13 +385,22 @@ change:hover{
     background-color: black;
     cursor: pointer;
 }
+.service0{
+    background-color: gray;
+    position: relative;
+    height: 1300px;
+}
 .service{
-    margin-top: 200px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 800px;
 }
 .service1{
     width: 1000px;
+    margin-top: 100px;
 }
 .items{
+    z-index: 800;
     position: relative;
     width: 150px;
     height: 200px;
@@ -398,7 +408,7 @@ change:hover{
     display: inline-block;
     margin-right: 50px;
     border-radius: 30px;
-    border-color: white;
+    border-color: black;
     box-shadow: 10px 10px 20px 10px gray;
     padding: 50px;
     transition: 0.5s ease-in-out;
@@ -444,4 +454,103 @@ change:hover{
     z-index: 30;
     top: 0;
     right: 0;
+}
+#all{
+    width: 750px;
+}
+#all:hover{
+    width:760px;
+}
+.choose{
+    position: absolute;
+    top: 1500px;
+    width: 600px;
+    z-index: 999;
+    margin-right: 200px;
+}
+.change{
+    transition: 0.5s ease-in-out;
+}
+.change:hover{
+    height: 7.5px;
+}
+.know{
+    display: flex;
+    gap: 200px;
+    padding-top: 100px;
+    box-shadow: 0px 0px 30px 10px gray;
+    width: 800px;
+    margin-top: 500px;
+    margin-bottom: 300px;
+    border-radius: 30px;
+    padding-left: 75px;
+    padding-bottom: 70px;
+    & h1{
+        font-size: 50px;
+    }
+}
+.know div{
+    margin: 0;
+    gap: 80px;
+}
+.knowheading{
+    position:absolute;
+    z-index: 999;
+    top: 2780px;
+    left: 840px;
+}
+.about div{
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    & img{
+        border-radius: 5px;
+        width: 50px;
+        height: 50px;
+        box-shadow: 0px 0px 20px 10px rgb(61, 60, 60);
+        margin-bottom: 0px;
+        transition: 0.5s ease-in-out; 
+        bottom: 0px;
+    }
+}
+.about{
+    position: absolute;
+    position: relative;
+    height: 200px;
+    background-color: gray;
+    bottom: 0;
+    overflow-y: 0;
+}
+.logos{
+    padding-left: 40px;
+}
+#linkedin{
+    margin-left: 80%;
+    transition: 0.5s ease-in-out; 
+}
+#facebook{
+    margin-left: 75%;
+    transition: 0.5s ease-in-out;  
+}
+#instagram{
+    margin-left: 85%;
+    transition: 0.5s ease-in-out;
+}
+#main{
+    top: 100px;
+}
+#linkedin img:hover{
+    box-shadow: 0px 0px 20px 10px black;   
+    width: 55px;
+    height: 55px;
+}
+#instagram img:hover{
+    box-shadow: 0px 0px 20px 10px black;
+    width: 55px;
+    height: 55px;
+}
+#facebook img:hover{
+    box-shadow: 0px 0px 20px 10px black;
+    width: 55px;
+    height: 55px;
 }
