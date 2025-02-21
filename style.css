@@ -28,9 +28,9 @@ body{
     align-content: center;
     padding-left: 200px;
     position: relative;
-    display: none;
+    display: none;      
 }
-.ram{
+.ram{   
     width: 400px;
     height: 800px;
     align-content: center;
