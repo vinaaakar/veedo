@@ -14,101 +14,6 @@ body{
 .seperate{
     padding-right: 40px;
 }
-.mohit h2{
-    width: 700px;
-}
-.pranav h2{
-    width: 700px;
-}
-.circle1{
-    z-index: 1;
-    width: 600px;
-    height: 600px;
-    border-radius: 50%;
-    background-color: gray;
-    position: absolute;
-    top: 150px;
-    left: 1150px;
-}
-.circle2{
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: gray;
-    position: absolute;
-    top: 130px;
-    left: 1700px;    
-}
-.circle3{
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: gray;
-    position: absolute;
-    top: 670px;
-    left: 1100px;    
-}
-.mohit {
-    width: 400px;
-    height: 800px;
-    align-content: center;
-    padding-left: 200px;
-    position: relative;
-}
-.pranav{
-    margin-top: 500ox;
-    width: 400px;
-    height: 800px;
-    align-content: center;
-    padding-left: 200px;
-    position: relative;
-    display: none;
-}
-.mohit img{
-    position: absolute;
-    z-index: 200;
-    border-radius: 50%;
-    width: 400px;
-    height: 400px;
-    top: 250px;
-    left: 1250px;
-}
-.mohit h5{
-    width: 100px;
-    font-size: 40px;
-}
-.mohit h3{
-    font-size: 50px;
-}
-.pranav h5{
-    width: 100px;
-    font-size: 40px;
-}
-.pranav h3{
-    font-size: 50px;
-}
-button{
-    background-color: rgb(43, 43, 43);
-    border: rgb(43, 43, 43);
-    border-radius: 10px;
-    color: white;
-    width: 100px;
-    height: 50px;
-    transition: 0.5s ease-in-out;
-}
-button:hover{
-    background-color: white;
-    border: black;
-    color: rgb(43, 43, 43);
-    width: 100px;
-    height: 50px;
-    box-shadow: 20px 20px 50px 5px rgb(43, 43, 43);
-}
-h2{
-    font-size: 50px;
-}
 .top-portion a{
     text-decoration: none;
     color: black;
@@ -148,40 +53,7 @@ h2{
         }
     }
 }
-change:hover{
-    background-color: black;
-    cursor: pointer;
-}
-.circle4{
-    z-index: 1;
-    width: 600px;
-    height: 600px;
-    border-radius: 50%;
-    background-color: gray;
-    position: absolute;
-    top: 150px;
-    left: 1150px;
-}
-.circle5{
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: gray;
-    position: absolute;
-    top: 130px;
-    left: 1700px;    
-}
-.circle6{
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: gray;
-    position: absolute;
-    top: 670px;
-    left: 1100px;    
-}
+
 .about div{
     position: absolute;
     display: inline-block;
@@ -238,5 +110,112 @@ change:hover{
     height: 55px;
 }
 .price ul li{
-    display: flex;
+    display: inline-block;
+    & h2{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+.change{
+    border-radius: 10px;
+}
+.overall{
+    
+    margin-left: 600px;
+    padding: 30px;
+    margin-top:200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px gray;
+    margin-bottom: 100px;
+}
+.basic{
+    margin-top: 50px;
+    position: relative;
+}
+.price1{
+    position: absolute;
+    z-index: 100;
+    left: 400px;
+    top: 0;
+}
+.basic p{
+    position: absolute;
+    z-index: 100;
+    left: 400px;
+    top: 30px;
+}
+.basic .link{
+    position: absolute;
+    z-index: 100;
+    left: 400px;
+    top: 60px;
+}
+.basic .click{
+    position: absolute;
+    z-index: 100;
+    left: 400px;
+    top: 110px;
+}
+.basic img{
+    width: 300px;
+    height: 300px;
+}
+.basic{
+    margin-top: 50px;
+    position: relative;
+}
+.basic .price1{
+    position: absolute;
+    z-index: 100;
+    left: 400px;
+    top: 0;
+}
+.standerd p{
+    position: absolute;
+    z-index: 100;
+    left: 400px;
+    top: 30px;
+}
+.standerd .link{
+    position: absolute;
+    z-index: 100;
+    left: 400px;
+    top: 60px;
+}
+.standerd .click{
+    position: absolute;
+    z-index: 100;
+    left: 400px;
+    top: 110px;
+}
+.standerd img{
+    width: 300px;
+    height: 300px;
+}
+.standerd .price1{
+    position: absolute;
+    z-index: 100;
+    left: 400px;
+    top: 0;
+}
+button{
+    position: absolute;
+    z-index: 100;
+    top: 200px;
+    left: 400px;
+    background-color: rgb(43, 43, 43);
+    border: rgb(43, 43, 43);
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    transition: 0.5s ease-in-out;
+}
+button:hover{
+    background-color: white;
+    border: black;
+    color: rgb(43, 43, 43);
+    width: 100px;
+    height: 50px;
+    box-shadow: 0px 0px 20px 10px rgb(43, 43, 43);
 }
