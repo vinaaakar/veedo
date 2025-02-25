@@ -1,6 +1,7 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const sections = document.querySelectorAll(".mohit, .pranav");
-    const indicators = document.querySelectorAll(".number ul li");
+
+ocument.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll(".basic, .standerd, .premium");
+    const indicators = document.querySelectorAll(".price ul li");
     let currentIndex = 0;
     const intervalTime = 10000;
     let interval;
@@ -14,27 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
         indicators.forEach((indicator, i) => {
             if (i === index) {
                 indicator.classList.add("active");
-                indicator.style.backgroundColor = "black";
+                indicator.style.backgroundColor = "gray";
             } else {
                 indicator.classList.remove("active");
-                indicator.style.backgroundColor = "gray";
+                indicator.style.backgroundColor = "white";
             }
         });
     }
 
-    function nextSlide() {
-        currentIndex = (currentIndex + 1) % sections.length;
-        showSection(currentIndex);
-    }
-
-    function prevSlide() {
-        currentIndex = (currentIndex - 1 + sections.length) % sections.length;
-        showSection(currentIndex);
-    }
-
-    function startSlideshow() {
-        interval = setInterval(nextSlide, intervalTime);
-    }
 
     indicators.forEach((indicator, index) => {
         indicator.style.cursor = "pointer";
