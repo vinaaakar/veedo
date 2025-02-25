@@ -1,5 +1,4 @@
-
-ocument.addEventListener("DOMContentLoaded", function () {
+Document.addEventListener("DOMContentLoaded", function () {
     const sections = document.querySelectorAll(".basic, .standerd, .premium");
     const indicators = document.querySelectorAll(".price ul li");
     let currentIndex = 0;
